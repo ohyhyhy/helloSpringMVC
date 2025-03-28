@@ -10,6 +10,7 @@ import java.util.List;
 @Service
 public class OfferService {
 
+    //service는 dao를 호출한다.
     @Autowired
     private OfferDao offerDao;
 
